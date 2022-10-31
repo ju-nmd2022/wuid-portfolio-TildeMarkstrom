@@ -4,19 +4,20 @@
     padding-top: 10px;
     padding-bottom:10px;
     background-color:#ffc7fe;
-    float:left;
-    margin-left:20%;
     margin-top:10px;
     border-radius:20px;
+    margin-left:auto;
+    margin-right:auto;
+    width:max-content
 }
 
 h1{
     font-size: 3em;
-    margin-left:25%;
     color: #331234;
     text-align:left;
     margin-bottom:10px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
 }
 
 p{
@@ -50,6 +51,7 @@ p{
 h2 {
     text-align:center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #331234;
 }
 
 .puppy{
@@ -59,10 +61,7 @@ h2 {
 }
 
 .rightside{
-    margin-right:20%;
-    margin-left:20px;
     margin-top: 10px;
-    float:left;
     width:200px;
     height:344px;
     background-color: azure;
@@ -71,6 +70,9 @@ h2 {
     padding-top:20px;
     padding-bottom:20px;
     border-radius:20px;
+    float:left;
+    margin-left:10px;
+    margin-right:10px;
 
 
 }
@@ -116,3 +118,11 @@ img{
     margin-right:auto;
 }
 
+
+.drs{
+    margin-left:auto;
+    margin-right:auto;
+    width:max-content;
+    padding-left:10px;
+    padding-right:10px;
+}
