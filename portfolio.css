@@ -1,3 +1,23 @@
+header{
+    background-color:#703f37;
+    text-align:center;
+    padding:5px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+h1{
+    font-size:40px;
+    color:#f0f0f0;
+}
+
+h2{
+    text-align:center;
+    font-family:'Lucida Grande', Arial, sans-serif;
+    color:#141414
+}
+
 body{
     margin-left:0%;
     margin-right:0%;
@@ -12,57 +32,125 @@ body{
     margin:auto;
 }
 
-
 .container {
     /* <!-- the following five lines of code was adapted from https://cssgrid-generator.netlify.app/ Accessed: 2022-11-14--> */
     display: grid;
-    grid-template-columns: 1fr 6fr 1fr;
-    grid-template-rows: 1fr 12fr 1fr;
+    grid-template-columns: 1fr repeat(2, 3fr) 1fr;
+    grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    grid-template-areas:
-    "top top top top"
-    ". content content ."
-    "bottom bottom bottom bottom";
     width:100%;
     height:fit-content;
+    margin-top:20px;
     }
 
-
-
-.top{
-    background-color:#A3BCB6;
-        /* <!-- the following one line of code was adapted from https://cssgrid-generator.netlify.app/ Accessed: 2022-11-14--> */
-    grid-area: 1/1/2/4;
-    padding:10px;
+.Jinx{
+    grid-area: 1/2/2/3;
+    background-color:#c8b7a6;
+    padding:15px;
+    border-radius:30px;
+    border-width:5px;
+    border-style:solid;
+    border-color:#565456;
 }
 
-.content{
-    background-color: #DADED4;
-        /* <!-- the following one line of code was adapted from https://cssgrid-generator.netlify.app/ Accessed: 2022-11-14--> */
+.HarleyQuinn{
+    grid-area: 1/3/2/4;
+    background-color:#c8b7a6;
+    padding:15px;
+    border-radius:30px;
+    border-width:5px;
+    border-style:solid;
+    border-color:#565456;
+}
+
+.Bird{
     grid-area: 2/2/3/3;
+    background-color:#c8b7a6;
+    padding:15px;
+    border-radius:30px;
+    border-width:5px;
+    border-style:solid;
+    border-color:#565456;
 }
 
-.bottom{
-    background-color:#A3BCB6;
-        /* <!-- the folLowing one line of code was adapted from https://cssgrid-generator.netlify.app/ Accessed: 2022-11-14--> */
-    grid-area: 3/1/4/4;
-}
-/* <!-- the following one line of code was adapted from https://cssgrid-generator.netlify.app/ Accessed: 2022-11-14--> */
-.leftside { grid-area: 2/1/3/2; 
-}
-
-/* <!-- the following one line of code was adapted from https://cssgrid-generator.netlify.app/ Accessed: 2022-11-14--> */
-.rightside { grid-area: 2/3/3/4; 
+.Wicks{
+    grid-area: 2/3/3/4;
+    background-color:#c8b7a6;
+    padding:15px;
+    border-radius:30px;
+    border-width:5px;
+    border-style:solid;
+    border-color:#565456;
 }
 
-/* Colors for the website
-Olive: #A3BCB6
-Green Leaf: #39603D
-Brown Grey: #3C403D
-Tanly: #DADED4
-White: #FFFFFF */
+.Tilde{
+    grid-area: 3/2/4/3;
+    background-color:#c8b7a6;
+    padding:15px;
+    border-radius:30px;
+    border-width:5px;
+    border-style:solid;
+    border-color:#565456;
+}
 
-img {
-    height:400px;
+.info{
+    text-align:center;
+    color:#141414;
+    font-family:'Lucida Grande', Arial, sans-serif;
+}
+
+img{
+    max-height:400px;
+    margin-left: auto;
+    margin-right:auto;
+    display:block;
+    border-radius:30px;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.back {
+    font-weight:bold;
+    color:rgb(146, 83, 0);
+    text-align:center;
+    font-size:17px;
+    text-decoration:none;
+    background-color:#ffeedb;
+    width:100px;
+    margin-left:50px;
+    border:2px solid #f8d7ae;
+    border-radius:5px;
+    height:50px;
+    margin-top:20px;
+    padding-top:10px;
+    float:left;
+}
+
+.back:hover{
+    opacity:80%;
+}
+
+.front {
+    font-weight:bold;
+    color:rgb(146, 83, 0);
+    text-align:center;
+    font-size:17px;
+    text-decoration:none;
+    background-color:#ffeedb;
+    width:100px;
+    margin-right:50px;
+    border:2px solid #f8d7ae;
+    border-radius:5px;
+    height:50px;
+    margin-top:20px;
+    padding-top:10px;
+    float:right;
+}
+
+.front:hover{
+    opacity:80%;
 }
