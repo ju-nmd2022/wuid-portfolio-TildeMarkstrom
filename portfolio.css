@@ -19,9 +19,8 @@ h2{
 }
 
 body{
-    margin-left:0%;
-    margin-right:0%;
-    margin-top:0;
+    margin:0%;
+    background-color:#fff8f5;
 }
 
 .abc{
@@ -69,9 +68,22 @@ body{
     background-color:#c8b7a6;
     padding:15px;
     border-radius:30px;
+    border-color:#565456;
+}
+
+.Birdlink{
+    grid-area: 2/2/3/3;
+    background-color:#c8b7a6;
+    padding:15px;
+    border-radius:30px;
     border-width:5px;
     border-style:solid;
     border-color:#565456;
+}
+
+.Birdlink:hover{
+    scale:1.01;
+    opacity:0.8;
 }
 
 .Wicks{
@@ -153,4 +165,14 @@ a{
 
 .front:hover{
     opacity:80%;
+}
+
+footer{
+    background-color:#703f37;
+    text-align:center;
+    padding:5px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top:20px;
 }
