@@ -40,6 +40,7 @@ footer{
 .rightside{
     grid-area: 1/4/2/5;
     background-color: #c8b7a6;
+    padding:10px;
 }
 
 .leftside{
@@ -64,4 +65,26 @@ img{
 
 b{
     font-size:20px;
+    font-family:'Arial Narrow Bold', sans-serif;
+}
+
+p{
+    font-family:'Arial Narrow Bold', sans-serif;
+    font-size:15px;
+}
+
+a{
+    color:black;
+    font-weight:bold;
+    text-align:center;
+}
+
+.back {
+    margin-top:40px;
+    font-size:20px;
+}
+
+.back:hover{
+    opacity: 80%;
+    scale:1.1;
 }
