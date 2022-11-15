@@ -154,8 +154,8 @@ a:link {
     text-decoration: none;
     color:#331234;
     font-size:20px;
-    margin-top:75%;
-    display:flex;
+    margin-top:50%;
+    display:block;
 }
 
 .leftside{
@@ -173,3 +173,4 @@ a:link {
     margin-right:10px;
     text-align:center;
 }
+
