@@ -1,0 +1,119 @@
+body{
+    margin:0px;
+    background-color:burlywood
+}
+
+.container{
+    display:grid;
+    grid-template-columns:20% 60% 20%;
+    grid-template-rows: 10% 80% 10%;
+    height:110%;
+    align-items:center;
+}
+
+.gamename{
+    background-color:pink;
+    grid-area: 1 / 1 / 2 / 4 ;
+}
+
+#section{
+    grid-area: 2 / 2 / 3 / 3 ;
+}
+
+.navigationleft{
+    grid-area: 2 / 1 / 3 / 2 ;
+    background-color:purple;
+}
+
+.navigationright{
+    grid-area: 2 / 3 / 3 / 4 ;
+    background-color:purple;
+}
+
+.inventory{
+    grid-area: 3 / 1 / 4 / 4 ;
+    background-color:blueviolet;;
+}
+
+#scene{
+    width:70%;
+    margin-top:5px;
+    margin-right:15%;
+    margin-left:15%;
+}
+
+h1{
+    font-size:30px;
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+p{
+    text-align:center;
+}
+
+#story{
+    margin-top:2px;
+    font-size:12px;
+}
+
+#whiskey{
+    width:2%;
+    margin-bottom:26%;
+    margin-left:50%;
+    margin-top:-100%;
+}
+
+.whiskey2{
+    width:3%;
+    margin:0px;
+    float:left;
+}.whiskey3{
+    width:3%;
+    margin:0px;
+}
+
+#whiskeyinventory{
+    float:left;
+}
+
+.flashlight{
+    width:3%;
+    margin:0px;
+    margin-left:10px;
+    float:left;
+}
+
+#flashlightinventory{
+    float:left;
+}
+
+.bag{
+    width:6%;
+    margin:0px;
+    margin-left:10px;
+    float:left;
+}
+
+#baginventory{
+    float:left;
+}
+
+#flash{
+    position:fixed;
+    top:300px;
+    right:600px;
+    visibility: hidden;
+}
+
+#bag{
+    position:fixed;
+    top:400px;
+    right:800px;
+    visibility:hidden;
+}
+
+#dices{
+    visibility:hidden;
+}
