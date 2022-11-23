@@ -30,23 +30,56 @@ h2{
     /*<!*-- the following 12 lines of code was adapted from <!-- the following four lines of code was adapted from Lecture "advanced css" Accessed 2022-11-23 --> */
     background-image: linear-gradient(to right, #f00, #ff0, #0ff, #0f0, #00f );
     -webkit-background-clip: text;
-    animation: animate 3s linear infinite;
+    animation: partytext 3s linear infinite;
     color: transparent;
     background-size:1000%;
     }
 
-@keyframes animate{
+@keyframes partytext{
     0% { background-position:0% 100%;
         font-size:5em;
-        kerning:40px;}
+        }
     50% { background-position: 100% 0%;
         font-size:5.5em;
-        kerning:7000px;}
+        }
     100% { background-position: 0% 100%;
         font-size:5em;
-        kerning:40px;}
+        }
 }    
 
+.partybtn{
+    background-color:transparent;
+    border: 4px solid #0ff;
+    border-radius:5px;
+    color:#0ff;
+    position:absolute;
+    top:45%;
+    left:0;
+    righT:0;
+    margin-right:auto;
+    margin-left:auto;
+    width:20%;
+    text-align:center;
+    transition: all 0.15s ease-in-out;
+}
+
+.partybtn:hover{
+    box-shadow:0 0 10px 0 #0ff inset, 0 0 10px 2px #0ff;
+    animation: heartbeat 1s infinite;
+    transition:1s;
+}
+
+@keyframes heartbeat{
+    0%{
+        scale: 1;
+    }
+    50%{
+        scale:1.2;
+    }
+    100%{
+        scale: 1;
+    }
+}
 
 body{
     margin:0%;
