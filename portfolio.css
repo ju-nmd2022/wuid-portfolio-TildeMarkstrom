@@ -30,15 +30,21 @@ h2{
     /*<!*-- the following 12 lines of code was adapted from <!-- the following four lines of code was adapted from Lecture "advanced css" Accessed 2022-11-23 --> */
     background-image: linear-gradient(to right, #f00, #ff0, #0ff, #0f0, #00f );
     -webkit-background-clip: text;
-    animation: animate 4s linear infinite;
+    animation: animate 3s linear infinite;
     color: transparent;
     background-size:1000%;
     }
 
 @keyframes animate{
-    0% { background-position:0% 100%;}
-    50% { background-position: 100% 0%;}
-    100% { background-position: 0% 100%;}
+    0% { background-position:0% 100%;
+        font-size:5em;
+        kerning:40px;}
+    50% { background-position: 100% 0%;
+        font-size:5.5em;
+        kerning:7000px;}
+    100% { background-position: 0% 100%;
+        font-size:5em;
+        kerning:40px;}
 }    
 
 
