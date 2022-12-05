@@ -36,7 +36,7 @@ footer{
 
 
 .Artwork{
-    max-width:400px;
+    max-width:350px;
 }
 
 .Jinxinfo{
@@ -46,8 +46,8 @@ footer{
 
 img{
     max-height:700px;
-    margin:20px;
     border-radius:10px;
+    margin-top:20px;
 }
 
 b{
